@@ -1,0 +1,24 @@
+{
+  "name": "galvanize-secrets-fs",
+  "version": "1.0.0",
+  "description": "Everybody has secrets, its time to track them in a centralized way. In this project you will create a full-stack application where users will keep their secrets and keep track of who knows them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landonwshields/galvanize-secrets-fs.git"
+  },
+  "author": "Landon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/landonwshields/galvanize-secrets-fs/issues"
+  },
+  "homepage": "https://github.com/landonwshields/galvanize-secrets-fs#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "knex": "^0.13.0",
+    "pg": "^7.3.0"
+  }
+}

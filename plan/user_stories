@@ -1,0 +1,17 @@
+USER STORIES
+
+ As a user, I should be able to see the logo of the web application.
+ When I click the logo, I should be taken back to the main page.
+ I should be able to see the create account link when I first visit the site.
+ When I click on the create account link should be taken to the create account/login page.
+ As a user, when I click on the login link I am taken to the create account/login page.
+ I should be able to see the main title of the web app.
+ As a first time user I can see a message about needing to create an account.
+ As a new user I should be able to create an account.
+ As a user I should be able to log out.
+ I should be able to log in with the code provided to me.
+ I should be able to see all of my secrets.
+ I should be able to see that I created a secret.
+ I should be able to see the secrets that I know about.
+ I should be able to create a secret.
+ I should be able to create a secret that other users know about.
