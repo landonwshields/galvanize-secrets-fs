@@ -6,9 +6,23 @@ const db = require('./db/query');
 const port = process.env.PORT || 3000;
 const app = express();
 
+app.set('view engine', 'hbs')
+app.use(express.static('public'))
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
-// This allows the client to post user information
+
+app.get('/', (req,res, next) => {
+  res.render('index')
+})
+
+app.get('/newAccount', (req,res, next) => {
+  res.render('newAccount')
+})
+
+app.get('/login', (req,res, next) => {
+  res.render('login')
+})
+
 app.post('/users', (req, res, next) => {
   db.createUser(req.body)
  	  .then(user => res.status(201).json(user))
@@ -50,8 +64,6 @@ app.post('/users/login', (req, res, next) => {
 		})
 		.catch(err => res.status(500).send(err));
 });
-
-
 
 
 

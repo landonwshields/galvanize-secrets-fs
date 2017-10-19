@@ -8,7 +8,7 @@ function createUser(users) {
  }
 
  function generateRandomNum(){
-   return Math.floor(Math.random() * 100000).toString();
+   return Math.floor(Math.random() * 999999);
  }
 
 function getUserById(id){
